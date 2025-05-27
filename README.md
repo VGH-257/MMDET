@@ -34,6 +34,7 @@ VOCO0712COCO/
 **Mask R-CNN训练**   
 - 在configs下准备相关训练文件configs/mask_rcnn/mask-rcnn_r50_fpn_1x_voc0712.py
 - 执行训练脚本`bash tools/dist_train.sh configs/mask_rcnn/mask-rcnn_r50_fpn_1x_voc0712.py 8`  
+
 **Sparse R-CNN训练**  
 - 在configs下准备相关训练文件configs/sparse_rcnn/sparse-rcnn_r50_fpn_2x_voc0712.py
 - 执行训练脚本`bash tools/dist_train.sh configs/sparse_rcnn/sparse-rcnn_r50_fpn_2x_voc0712.py 8`
